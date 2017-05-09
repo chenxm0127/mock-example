@@ -1,0 +1,24 @@
+{
+  "name": "mock-example",
+  "version": "1.0.0",
+  "description": "mock data with mock.js",
+  "main": "index.js",
+  "scripts": {
+     "mock-template": "json-server db.js",
+     "mock-json": "json-server db.json",
+     "mock-data": "json-server mock-data.js -p 3003"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chenxm0127/mock-example.git"
+  },
+  "author": "chenxiaoming",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chenxm0127/mock-example/issues"
+  },
+  "homepage": "https://github.com/chenxm0127/mock-example#readme",
+  "dependencies": {
+    "mockjs": "^1.0.1-beta3"
+  }
+}
